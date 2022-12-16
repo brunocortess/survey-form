@@ -17,43 +17,48 @@
     --color-green: #37af65;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
+html {
     background: url(../img/img1.jpg) no-repeat bottom center; 
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
     color: var(--color-white);
-}
-
-div#container {
     background-color:var(--color-background);
-    width: 100vw;
-    height: 100vh;
 }
 
-div#container > h1, p {
+body > h1, p {
     text-align: center;
 }
 
-div#container > h1 {
+body > h1 {
     font-weight: lighter;
+    padding: 45px 0 2px 0;
+    font-size: 32px;
 }
 
-div#container > p {
+body > p {
     font-weight: lighter;
     font-style: italic;
-    font-size: 1.2em;
+    margin-bottom: 30px;
+   
 }
 
 form {
     background-color: var(--color-darkblue-alpha);
-    width: 60vw;
+    width: 720px;
     margin: 0 auto;
-    height: 100vh;
+    padding: 2.5rem 3rem ;
+    box-sizing: border-box;
 }
 
 form > label {
+    display: block;
+}
+
+form > input {
     display: block;
 }
