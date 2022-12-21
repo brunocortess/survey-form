@@ -10,8 +10,8 @@
 <body>
    <div class="container"> 
        <header> 
-            <h1 class="center">freeCodeCamp Survey Form</h1>
-            <p class="center">Thank you for taking the time to help us improve the platform</p>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
        </header>
 
         <form id="survey-form" action="" method="post" autocomplete="on">
@@ -25,7 +25,7 @@
                 <input type="email" name="email" id="email" placeholder="Enter your Email" required>
             </div>
             <div class="form-group">
-                <label for="age">Age <span class="small">(optional)</span></label
+                <label for="age">Age<span class="small"> (optional)</span></label
                 ><input type="number" name="age" id="age" min="10" max="99" placeholder="Age">
             </div>       
             <div class="form-group">
@@ -43,13 +43,13 @@
             <div class="form-group">
                 <p>Would you recommend freeCodeCamp to a friend?</p>
                 <label>
-                    <input type="radio" name="rec" id="definitely">Definitely
+                    <input class="input-radio" type="radio" name="rec" id="definitely">Definitely
                 </label>
                 <label>
-                    <input type="radio" name="rec" id="maybe">Maybe
+                    <input class="input-radio" type="radio" name="rec" id="maybe">Maybe
                 </label>
                 <label>
-                    <input type="radio" name="rec" id="not-sure">Not sure
+                    <input class="input-radio" type="radio" name="rec" id="not-sure">Not sure
                 </label>
             </div>
 
@@ -65,38 +65,38 @@
             </div>
 
             <div class="form-group">
-                <p>What would you like to see improved?<span class="small">(Check all that apply)</span></p>
+                <p>What would you like to see improved? <span class="small"> (Check all that apply)</span></p>
                 <label>
-                    <input type="checkbox" name="front-end" id="front-end">Front-end Projects
+                    <input class="input-checkbox" type="checkbox" name="front-end" id="front-end">Front-end Projects
                 </label>
                 <label>
-                    <input type="checkbox" name="back-end" id="back-end">Back-end Projects</label>
+                    <input class="input-checkbox" type="checkbox" name="back-end" id="back-end">Back-end Projects</label>
                 <label>
-                    <input type="checkbox" name="data-view" id="data-view">Data Visualization
+                    <input class="input-checkbox" type="checkbox" name="data-view" id="data-view">Data Visualization
                 </label>
                 <label>
-                    <input type="checkbox" name="challenges" id="challenges">Challenges
+                    <input class="input-checkbox" type="checkbox" name="challenges" id="challenges">Challenges
                 </label>
                 <label>
-                    <input type="checkbox" name="open-source" id="open-source">Open Source Community
+                    <input class="input-checkbox" type="checkbox" name="open-source" id="open-source">Open Source Community
                 </label>
                 <label>
-                    <input type="checkbox" name="help-rooms" id="help-rooms">Gitter help rooms
+                    <input class="input-checkbox" type="checkbox" name="help-rooms" id="help-rooms">Gitter help rooms
                 </label>
                 <label>
-                    <input type="checkbox" name="videos" id="videos">Videos
+                    <input class="input-checkbox" type="checkbox" name="videos" id="videos">Videos
                 </label>
                 <label>
-                    <input type="checkbox" name="city-meetups" id="city-meetups">City Meetups
+                    <input class="input-checkbox" type="checkbox" name="city-meetups" id="city-meetups">City Meetups
                 </label>
                 <label>
-                    <input type="checkbox" name="wiki" id="wiki">Wiki
+                    <input class="input-checkbox" type="checkbox" name="wiki" id="wiki">Wiki
                 </label>
                 <label >
-                    <input type="checkbox" name="forum" id="forum">Forum
+                    <input class="input-checkbox" type="checkbox" name="forum" id="forum">Forum
                 </label>
                 <label>
-                    <input type="checkbox" name="courses" id="courses">Additional Courses
+                    <input class="input-checkbox" type="checkbox" name="courses" id="courses">Additional Courses
                 </label>
             </div>
             <div class="form-group">
